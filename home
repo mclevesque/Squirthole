@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squirthole - The Ultimate Crypto Parody</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-blue-100">
+    <div class="text-center p-8">
+        <h1 class="text-5xl font-bold text-blue-900">Welcome to Squirthole</h1>
+        <p class="text-xl mt-4">The most transparent pump-n-dump scheme in the crypto world.</p>
+        <img src="https://via.placeholder.com/200" alt="Squirthole Mascot" class="mx-auto mt-8" style="width: 200px; height: auto;">
+        <button id="pumpButton" class="mt-8 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Pump the Squirthole!
+        </button>
+        <div id="valueDisplay" class="text-2xl mt-4">Squirthole Value: $0</div>
+    </div>
+
+    <section id="about" class="p-8">
+        <h2 class="text-3xl font-bold text-center">About Squirthole</h2>
+        <p class="text-xl mt-4 text-center">Squirthole was created as a joke to end all jokes. It's the most honest scam you'll ever love to lose your money in. Our founder, Victor the Turtle, wanted to create a cryptocurrency that was as fun as it was worthless.</p>
+    </section>
+
+    <section id="tokenomics" class="bg-gray-100 p-8">
+        <h2 class="text-3xl font-bold text-center">Tokenomics</h2>
+        <div class="text-xl mt-4">
+            <ul class="list-disc list-inside">
+                <li>Total Supply: 69,420,000</li>
+                <li>Developer's Yacht Fund: 20%</li>
+                <li>Marketing Gimmicks: 25%</li>
+                <li>Public Sale: 5%</li>
+                <li>Rug Pull Reserve: 50%</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="how-to-buy" class="p-8">
+        <h2 class="text-3xl font-bold text-center">How to Buy Squirthole</h2>
+        <p class="text-xl mt-4 text-center">1. Don't. 2. If you must, send your money to an anonymous wallet and hope for the best. 3. Enjoy your stay in Squirthole!</p>
+    </section>
+
+    <section id="team" class="bg-gray-100 p-8">
+        <h2 class="text-3xl font-bold text-center">The Team</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
+            <!-- Justin -->
+            <div class="team-member text-center">
+                <img src="https://via.placeholder.com/100" alt="Justin" class="mx-auto" style="width: 100px; height: auto;">
+                <h3 class="text-xl font-bold">Justin</h3>
+                <p>Lead Driver on the Road to Nowhere</p>
+            </div>
+            <!-- Mark -->
+            <div class="team-member text-center">
+                <img src="https://via.placeholder.com/100" alt="Mark" class="mx-auto" style="width: 100px; height: auto;">
+                <h3 class="text-xl font-bold">Mark</h3>
+                <p>Head of Shilling Operations</p>
+            </div>
+            <!-- Brian -->
+            <div class="team-member text-center">
+                <img src="https://via.placeholder.com/100" alt="Brian" class="mx-auto" style="width: 100px; height: auto;">
+                <h3 class="text-xl font-bold">Brian</h3>
+                <p>Crypto Wizard, Keeper of the Blockchain</p>
+            </div>
+            <!-- Jimi -->
+            <div class="team-member text-center">
+                <img src="https://via.placeholder.com/100" alt="Jimi" class="mx-auto" style="width: 100px; height: auto;">
+                <h3 class="text-xl font-bold">Jimi</h3>
+                <p>Master of Rug Pulls</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="live-chart" class="p-8">
+        <h2 class="text-3xl font-bold text-center">Live Chart</h2>
+        <p class="text-xl mt-4 text-center">Watch our totally legit and not at all fabricated price movements!</p>
+        <div id="chartContainer" style="width: 100%; height: 400px;"><canvas id="myChart"></canvas></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
